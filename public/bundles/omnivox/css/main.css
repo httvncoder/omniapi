@@ -1,0 +1,121 @@
+body {
+	padding-top: 60px;
+	color: #333;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 1.1;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	font-size: 1.3em;
+	line-height: 1.1;
+	margin-bottom: 0.5em;
+}
+
+/* Documentation CSS
+-------------------------------------------------- */
+
+/* API docs index page
+------------------------- */
+
+.api-list-resource {
+	width: 220px;
+	font-weight: bold;
+}
+
+.api-resource-table {
+	margin-bottom: 2.5em;
+}
+
+/* API call page
+------------------------- */
+
+ol.linenums {
+	font-size: 12px;
+	margin-left: 3em;
+}
+
+.api-block {
+	margin-bottom: 2em;
+}
+
+.api-parameter:last-child {
+	border-bottom: 1px solid #ccc;
+}
+
+.api-parameter {
+	padding: 8px 0;
+	border-top: 1px solid #ccc;
+}
+
+.api-parameter:hover {
+	background-color: #f0f0f0;
+}
+
+.api-parameter span.parameter-name {
+	float: left;
+	width: 220px;
+	font-weight: bold;
+}
+
+.api-parameter span.parameter-name span {
+	display: block;
+	font-weight: normal;
+	color: #888;
+}
+
+.api-parameter p {
+	margin-left: 220px;
+}
+
+#information {
+	padding: 10px;
+}
+
+#information table {
+	font-size: 0.9em;
+}
+
+#information td {
+	padding: 8px 0 8px 0;
+}
+
+#information td:last-child {
+	font-weight: bold;
+}
+
+footer {
+	font-size: 0.9em;
+	margin-top: 15px;
+	padding: 35px 0 36px;
+	border-top: 1px solid #E5E5E5;
+}
+
+footer p {
+	margin-bottom: 0;
+	color: #555;
+}
+
+table caption {
+	text-align: left;
+	padding-bottom: 6px;
+}
+
+table caption p {
+	color: #777;
+}
+
+thead {
+	border-top: 1px solid #DDD;
+}
+
+.call-method {
+	width: 10%;
+}
+
+.call-url {
+	width: 20%;
+}
